@@ -9,7 +9,7 @@ package lab1;
  *
  * @author Adam
  */
-public class HumanResources {
+public class HumanResourcesManager {
     private String name;
     
     private Employee employee = new Employee();
