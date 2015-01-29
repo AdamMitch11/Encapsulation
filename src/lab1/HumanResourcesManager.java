@@ -14,10 +14,10 @@ public class HumanResourcesManager {
     
     private Employee employee = new Employee();
     
-    public void hireEmployee(){
-        employee.setFirstName("Peter");
-        employee.setLastName("Piper");
-        employee.setSSN("012345678");     
+    public void hireEmployee(String firstName,String lastName,String ssn){
+        employee.setFirstName(firstName);
+        employee.setLastName(lastName);
+        employee.setSSN(ssn);     
     }
     
     public void giveOrientation() {

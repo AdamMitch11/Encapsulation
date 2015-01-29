@@ -21,7 +21,7 @@ public class Startup {
         */
         HumanResourcesManager hr = new HumanResourcesManager();
         
-        hr.hireEmployee();
+        hr.hireEmployee("John","Doe","333-33-3333");
         hr.giveOrientation();
         hr.moveEmployeeIntoCubicle();
         
